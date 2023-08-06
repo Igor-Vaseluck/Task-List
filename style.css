@@ -1,0 +1,62 @@
+
+body {
+    color: black;
+    display: block;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #060606;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+#container{
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+}
+#heading {
+    font-size: 40px;
+    color:brown;
+    margin: 0 auto;
+    text-align: center;
+}
+#nameTaskButton{
+    display: block;
+    text-align: center;
+    margin: 5px auto;
+    padding: 0;
+    width: 60%;
+    height: 40px;
+    }
+#createTask{
+    width: 60%;
+    left: 20%;
+    border-width: 0;
+    padding: 0;
+    position: relative;
+    margin: 5px auto;
+    height: 40px;
+    background-color: burlywood;
+}
+#list{
+    width: 60%;
+    text-align: center;
+    margin: auto auto;
+    list-style: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 0;
+    padding-left: 0;
+    background-color:green;
+    vertical-align: middle;
+}
+.containerTask{
+    
+    display: flex;
+    text-align: center;
+    padding-top: 15px;
+}
+.task{
+    width: 70%;
+}
